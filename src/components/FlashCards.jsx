@@ -50,6 +50,7 @@ function FlashCards() {
           question={question}
           handleClick={handleClick}
           activeID={activeID}
+          key={question.id}
         />
       ))}
     </div>
