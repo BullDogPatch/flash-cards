@@ -40,6 +40,7 @@ function FlashCards() {
   const [activeID, setActiveID] = useState(null);
 
   const handleClick = (id) => {
+    // if question.id is not same as activeID set it to id otherwise null
     setActiveID(id !== activeID ? id : null);
   };
 
